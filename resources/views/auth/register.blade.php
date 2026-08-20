@@ -53,7 +53,7 @@
             <div class="mb-2 d-inline-flex align-items-center justify-content-center bg-white text-danger rounded-circle shadow-sm" style="width: 50px; height: 50px; font-size: 22px;">
                 <i class="fas fa-user-plus"></i>
             </div>
-            <h5 class="fw-bold mb-1">Registrasi Operator / Admin</h5>
+            <h5 class="fw-bold mb-1">Registrasi Operator</h5>
             <p class="small text-white-50 mb-0">Sistem Realisasi Retribusi Daerah (SITRIBU RED)</p>
         </div>
         <div class="p-4 p-md-5">
@@ -85,7 +85,6 @@
                         <label class="form-label fw-semibold small text-muted">Peran (Role)</label>
                         <select name="role" class="form-select bg-light" required>
                             <option value="user_opd" selected>Operator OPD</option>
-                            <option value="admin">Administrator BAPENDA</option>
                         </select>
                     </div>
                     <div class="col-6">

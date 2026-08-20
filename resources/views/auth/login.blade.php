@@ -76,14 +76,14 @@
                     <label class="form-label fw-semibold small text-muted">Email / Username Resmi</label>
                     <div class="input-group">
                         <span class="input-group-text bg-light border-end-0 text-muted"><i class="fas fa-envelope"></i></span>
-                        <input type="email" name="email" class="form-control bg-light border-start-0" placeholder="admin@retribusi.go.id" value="{{ old('email') }}" required autofocus>
+                        <input type="email" name="email" class="form-control bg-light border-start-0" placeholder="Username" value="{{ old('email') }}" required autofocus>
                     </div>
                 </div>
                 <div class="mb-4">
                     <label class="form-label fw-semibold small text-muted">Kata Sandi</label>
                     <div class="input-group">
                         <span class="input-group-text bg-light border-end-0 text-muted"><i class="fas fa-lock"></i></span>
-                        <input type="password" name="password" class="form-control bg-light border-start-0" placeholder="••••••••" required>
+                        <input type="password" name="password" class="form-control bg-light border-start-0" placeholder="Password" required>
                     </div>
                 </div>
 
